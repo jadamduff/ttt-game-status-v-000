@@ -11,7 +11,10 @@ def won?(board)
     win_pos.each do |pos|
       board_pos << board.pos
     end
-    puts board_pos
+    if board_pos.all? {|pos| pos == "X"}
+      return true
+    elsif board_pos.all? {|pos| pos == "O"}
+      return true
   end
-  puts board_pos
+  return false
 end

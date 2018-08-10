@@ -15,6 +15,7 @@ def won?(board)
       return true
     elsif board_pos.all? {|pos| pos == "O"}
       return true
+    end
   end
   return false
 end

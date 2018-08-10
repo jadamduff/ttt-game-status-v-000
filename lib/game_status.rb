@@ -20,6 +20,5 @@ def won?(board)
         win = true
       end
     end
-  end
   return win
 end

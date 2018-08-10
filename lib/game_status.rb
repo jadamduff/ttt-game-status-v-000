@@ -13,4 +13,5 @@ def won?(board)
     end
     puts board_pos
   end
+  puts board_pos
 end

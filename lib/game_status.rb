@@ -9,7 +9,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |win_pos|
     board_pos = []
     win_pos.each do |pos|
-      board_pos << board.pos
+      board_pos << board[pos]
     end
     if board_pos.all? {|pos| pos == "X"}
       return true

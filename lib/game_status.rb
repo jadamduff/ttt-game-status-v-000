@@ -12,9 +12,9 @@ def won?(board)
       board_pos << board[pos]
     end
     if board_pos.all? {|pos| pos == "X"}
-      return true
+      return board_pos
     elsif board_pos.all? {|pos| pos == "O"}
-      return true
+      return board_pos
     end
   end
   return false

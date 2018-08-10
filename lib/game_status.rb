@@ -19,6 +19,5 @@ def won?(board)
       if x_counter == 3 || o_counter == 3
         win = true
       end
-    end
   return win
 end

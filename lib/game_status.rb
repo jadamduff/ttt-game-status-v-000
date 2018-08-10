@@ -12,4 +12,5 @@ def won?(board)
       board_pos << board.pos
     end
     puts board_pos
+  end
 end
